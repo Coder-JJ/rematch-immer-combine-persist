@@ -1,0 +1,43 @@
+{
+  "name": "rematch-immer-combine-persist",
+  "version": "1.0.0",
+  "description": "rematch plugin combine immer and persist",
+  "keywords": [
+    "rematch",
+    "plugin",
+    "immer",
+    "persist",
+    "typescript"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "npx eslint -c ./.eslintrc.json ./src/**/*.ts",
+    "build": "npm run eslint && gulp --gulpfile ./build/gulpfile.js"
+  },
+  "author": "CoderJ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coder-JJ/rematch-immer-combine-persist"
+  },
+  "dependencies": {
+    "@rematch/core": "^1.4.0",
+    "immer": "^7.0.5",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "delete": "^1.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-jun": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "typescript": "^3.9.6"
+  }
+}

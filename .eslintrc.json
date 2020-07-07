@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "jun"
+  ],
+  "extends": [
+    "plugin:jun/ts-prod"
+  ]
+}
