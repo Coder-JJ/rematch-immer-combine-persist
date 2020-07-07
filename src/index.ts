@@ -8,12 +8,12 @@ let persistor: Persistor
 
 export const getPersistor = (): Persistor => persistor
 
-const plugin = (
-  persistConfig: Omit<PersistConfig<any, any, any, any>, 'key' | 'storage'> = {},
+const plugin = <S = any, RS = any, HSS = any, ESS = any>(
+  persistConfig: Partial<PersistConfig<S, RS, HSS, ESS>> = {},
   persistStoreConfig?: PersistorOptions | null,
   callback?: () => any
 ): Plugin => {
-  const persistMergedConfig: PersistConfig<any, any, any, any> = {
+  const persistMergedConfig: PersistConfig<S, RS, HSS, ESS> = {
     key: 'root',
     storage,
     ...persistConfig
