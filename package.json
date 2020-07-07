@@ -1,6 +1,6 @@
 {
   "name": "rematch-immer-combine-persist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rematch plugin combine immer and persist",
   "keywords": [
     "rematch",
