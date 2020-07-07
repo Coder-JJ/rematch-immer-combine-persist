@@ -46,7 +46,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
-import { getPersistor } from '.rematch-immer-combine-persist'
+import { getPersistor } from 'rematch-immer-combine-persist'
 import store from './store'
 import App from './App'
 
