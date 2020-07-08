@@ -1,6 +1,6 @@
 {
   "name": "rematch-immer-combine-persist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "rematch plugin combine immer and persist",
   "keywords": [
     "rematch",
@@ -26,7 +26,6 @@
   "dependencies": {
     "@rematch/core": "^1.4.0",
     "immer": "^7.0.5",
-    "redux": "^4.0.5",
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
@@ -38,6 +37,7 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "redux": "^4.0.5",
     "typescript": "^3.9.6"
   }
 }
